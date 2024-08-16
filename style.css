@@ -1,0 +1,92 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    background-image: url('https://cdn.wallpapersafari.com/39/83/kKgoPS.gif');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.h1{
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    border: 2px black solid;
+    background-color:black;
+}
+
+.container {
+   
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vh;
+   margin-left:  580px;
+   margin-top: 60px;
+  }
+
+ form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px; /* Distance between inputs */
+    
+}
+  
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside the input*/
+    border: 2px solid #525151; /* White border */
+    border-radius: 8px; /* Rounded corners */
+    box-sizing: border-box; /* Ensure padding doesn't affect overall width/height */
+    outline: none;
+}
+
+form button {
+    margin: 2rem 0 2rem 0;
+    text-align: center;
+    margin-top: 3rem;
+    margin-right: 5rem;;
+    font-size: 1.2rem;
+    
+  }
+
+form button {
+
+  
+    margin-top: 2rem;
+    height: 3rem;
+    border: 2px solid #525151;
+    padding: 10px 0;
+    width: 100%;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+}
+
+form button:hover {
+    background-color: white;
+    color: black;
+    border: solid 1px black !important;
+
+
+
+}
+
+
+
+
